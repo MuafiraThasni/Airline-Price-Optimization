@@ -32,4 +32,7 @@ Key problem assumptions:
 ## Optimization Algorithms
 * **Brute-Force algorithm :** precomputes all possible best prices given the number of days left and the number of tickets left accross all possible demand levels. It gave an average reveneu of 7574 euros. 
 * **Modified BF algorithm with dynamic programming :** To deliver further improvement, Brute-Force algorithm can be improved by usinf a refned version. This approach is called as dynamic programming. Dynamic programming starts by solving an optimization problem in a very limited scenario, and then creates an iterative rule to expand to larger problem. In our case, we first solve for the optimal price when you only have 1 day to sell tickets before the flight. Then we continually step back to longer time-horizons one day at a time. Further improvement is obtained, as Average revenue across all flights became €7596
-* **Dynamic Programming BF with Bellman equation for modeling : ** 
+* **Dynamic Programming BF with Bellman equation for modeling :** Modifying the model using Bellman equation simplifies the computation of the value function, such that rather than summing over multiple time steps, we can find the optimal solution of a complex problem by breaking it down into simpler, recursive subproblems and finding their optimal solutions. The computation time was very high for this approach and the average reveneu after optimization was obtained as €7118, which is less than that obtained from previous methods
+
+## Conclusion
+* Three different approaches are implemted using python for optimizing the revenue. The proposed method is the dynamic programming approach which uses Brute-Force algorithm.
