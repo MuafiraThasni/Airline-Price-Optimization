@@ -1,4 +1,4 @@
-# Airline-Revue-Optimization
+# Airline-Revenue-Optimization
 #### Pricing Optimization Project Inspired from Kaggle Micro Challenge
 
 The objective is to optimize generated revenues using dynamic pricing by defining a pricing algorithm able to predict and optimize daily prices in response to a changing daily demand. Think about a transportation, hospitality or entertainment industry selling a fixed amount of tickets for a defined event, flight or time-bound service.
